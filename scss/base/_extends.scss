@@ -1,0 +1,48 @@
+%botonRed{
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin: 30px 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s;
+}
+
+.botonRed{
+    @extend %botonRed;
+}
+
+%botonSesion{
+    background: #FC5C7D;
+    
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    
+    display: block;
+    width: 100px;
+    height: 40px;
+    border:none;
+    color:#fff; 
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.botonSesion{
+    @extend %botonSesion;
+}
+
+%animacion{
+    transform: scale(2);
+}
+
+.animacion{
+    transition: 1s;
+    @extend %animacion;
+}

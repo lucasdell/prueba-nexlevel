@@ -1,0 +1,38 @@
+.inicio{
+    text-align: center;
+    margin: 13% auto;
+    h1{
+        margin: 0% auto 2% auto;
+        transition: 1s;
+        &:hover{
+            background-color:red;
+            border-radius: 10px;
+            @extend %animacion;
+            
+
+        }
+    }
+    
+}
+
+
+h3{
+    margin: 1% auto 2% auto;
+}
+h2{
+    margin: 0% auto 1% auto;
+}
+
+.bg{
+    background-color: white;
+    color: black;
+    margin: 3% auto; 
+    padding: 5%; 
+}
+
+
+
+button{
+    margin: 2%;
+    
+}

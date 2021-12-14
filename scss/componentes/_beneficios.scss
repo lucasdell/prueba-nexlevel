@@ -1,0 +1,96 @@
+main{
+    
+    padding: 5% 15%;
+    text-align: center;
+    background-color: black;
+    
+    
+    
+    p{
+        padding: 2%;
+    }
+    h5{
+        padding: 1%;
+    }
+    
+    
+}
+.beneficiosDos{
+    background-color: black;
+}
+#premium{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.paraAbajo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item1{
+    color: white;
+    margin: 7% 5% 5% 7%; 
+     
+}
+.item2{
+    margin: auto 5% auto auto;
+    
+}
+.item3{
+    margin: auto 8% auto 17%;
+}
+.sub-item1{
+    font-size: 60px;
+}
+.sub-item2{
+    font-size: 20px;
+    text-align: start;
+}
+
+.premiumTwo {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.persona5{
+    margin: 30%  25% 10% 0%;
+}
+
+
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.infoCarta{
+    margin: 3%;
+    padding: 3%;
+}
+
+.infoBeneficios{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2% ;
+    h2{
+        color: white;
+    }
+    img{
+        margin: auto;
+        
+    } 
+    
+    
+    
+}
+

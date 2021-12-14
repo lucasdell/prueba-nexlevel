@@ -1,0 +1,54 @@
+header{
+    
+    nav{
+        
+        ul{
+            li{
+                text-decoration: none;
+                text-decoration: white;
+                transition: 1s;
+                
+                text-align: center;
+                a{
+                    text-decoration: none;
+                
+                }
+
+                
+            }
+        }
+    }
+
+}
+.boton-red{
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin: 30px 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s;
+    
+    
+}
+.boton-red:hover{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo:hover{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: red;
+    height: auto;
+    width: auto;
+    transition: all 1s;
+    margin: 10px;
+}
